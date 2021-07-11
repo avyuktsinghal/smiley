@@ -10,3 +10,13 @@ input.onButtonPressed(Button.A, () => {
         . # # # .`
         );
 });
+
+input.onButtonPressed(Button.B, () => { 
+    basic.showLeds(`
+        # # . # #
+        # # . # #
+        . . . . .
+        . # # # .
+        # . . . #`
+        );
+});
